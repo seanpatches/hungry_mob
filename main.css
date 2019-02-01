@@ -1,0 +1,54 @@
+.blueberry {
+    background-color: blue;
+    color: white;
+}
+.apples {
+    background-color: orangered;
+    color: white;
+}
+.orange {
+    background-color: orange;
+    color: white;
+}
+.grape {
+    background-color: purple;
+    color: white;
+}
+.greenapple{
+    background-color: green;
+    color:white;
+}
+.cheese{
+    background-color: yellow;
+    color:white;
+}
+
+.add-body {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-block;
+    /* margin-left: -10px; */
+    margin-top: 20px;
+}
+#caterpillar-body {
+    height: 120px;
+    width: 10000%;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -20px;
+    padding-left: -50px;
+    z-index: 2;
+}
+
+.transform {
+    transform: translateY(-20px);
+}
+
+#caterpillar-head {
+    z-index: 3;
+    position: relative;
+}
+
